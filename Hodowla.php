@@ -21,7 +21,7 @@
        
         $drapieznik->getParametry();
         
-        echo "Parametry po zmianie:\n";
+        echo "Parametry po zmianie: \n";
         
         $drapieznik->zmien(new Zabojca("10", "4"));
         
