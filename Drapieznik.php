@@ -35,7 +35,7 @@ class Drapieznik extends Zwierz implements DrapieznikInterface{
     
     public function getParametry()
     {
-        echo "Prędkość maksymalna: ".$this->getPredkoscMaksymalna().". "."przyśpieszenie: ".$this->getPrzyspieszenie()."\n";
+        echo "Prędkość maksymalna: ".$this->getPredkoscMaksymalna().". "."Przyśpieszenie: ".$this->getPrzyspieszenie()."\n";
     }
 
 }
