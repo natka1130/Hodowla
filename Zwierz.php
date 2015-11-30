@@ -1,10 +1,10 @@
 <?php
 include_once('ZwierzInterface.php');
 class Zwierz implements ZwierzInterface{
-	private $gatunek;
-	private $plec;
-	private $umaszczenie;
-	private $wydawanyDzwiek;
+	public $gatunek;
+	public $plec;
+	public $umaszczenie;
+	public $wydawanyDzwiek;
 
 //	public function Zwierz() {
 //		$this->gatunek="szynszyl";
@@ -53,9 +53,9 @@ class Zwierz implements ZwierzInterface{
 	//}
 
 
-public function helloZwierz() {
-		return "Witaj! To ja - Twoj ".$this->gatunek.". "."Jestem ".$this->umaszczenie." i wydam dla Ciebie slodkie ".$this->wydawanyDzwiek.". \n";
-	}
+//public function helloZwierz() {
+//		return "Witaj! To ja - Twoj ".$this->gatunek.". "."Jestem ".$this->umaszczenie." i wydam dla Ciebie slodkie ".$this->wydawanyDzwiek.". \n";
+//	}
 
 
 }
